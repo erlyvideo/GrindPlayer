@@ -38,6 +38,7 @@ $(GRIND_PLAYER): $(BUILD_DIR) $(GRIND_FRAMEWORK) $(ADVERTISEMENT_PLUGIN) $(SUBTI
 	-swf-version=11 \
 	-target-player=$(TARGET_PLAYER) \
 	-default-size=640,360 \
+ 	-static-rsls \
 	-default-background-color=0 \
 	-sp src locale/{locale} \
 	-l "$(FLEX_SDK)/frameworks/libs" "$(FLEX_SDK)/frameworks/locale/{locale}" \
